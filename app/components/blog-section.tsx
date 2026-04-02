@@ -14,7 +14,7 @@ const blogPosts = [
     id: 1,
     title: "THE POWER OF EVERY DROP",
     description: "Discover how your regular contribution helps maintain a stable supply for emergencies and surgical procedures in your local hospitals...",
-    image: "https://images.unsplash.com/photo-1615461066841-6116eca7825a?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "LIFELINE",
     author: "Dr. Sarah Johnson",
     date: "Mar 25"
@@ -32,7 +32,7 @@ const blogPosts = [
     id: 3,
     title: "A RARE BLOOD TYPE ODYSSEY",
     description: "An inspiring story of how one person's commitment to donating their rare O-negative blood has saved countless lives over a decade...",
-    image: "https://images.unsplash.com/photo-1579154235602-3c35bd7996a6?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1569333393870-182ed614e9b2?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "STORY",
     author: "James Wilson",
     date: "Mar 18"
