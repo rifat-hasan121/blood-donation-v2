@@ -35,9 +35,8 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`nav-link ${
-                  pathname === link.href ? "text-primary" : "text-foreground/80"
-                }`}
+                className={`nav-link ${pathname === link.href ? "text-primary" : "text-foreground/80"
+                  }`}
               >
                 {link.name}
               </Link>
