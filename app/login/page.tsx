@@ -18,11 +18,11 @@ export default function Login() {
 
       <main className="flex-grow flex items-center justify-center p-4 sm:p-6 lg:p-8 relative z-10 my-10 lg:my-20">
         <div className="w-full max-w-6xl grid lg:grid-cols-2 gap-12 lg:gap-0 bg-card/40 backdrop-blur-xl rounded-[2rem] lg:rounded-[3rem] border border-border/50 shadow-2xl overflow-hidden">
-          
+
           {/* Left Side - Info/Branding */}
           <div className="relative p-10 lg:p-16 flex flex-col justify-center overflow-hidden bg-primary/5">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(239,68,68,0.08),transparent_50%)]" />
-            
+
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
@@ -33,13 +33,13 @@ export default function Login() {
                 <Heart className="w-4 h-4 fill-current" />
                 <span>Welcome Back</span>
               </div>
-              
+
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-foreground mb-6">
                 Log in to Your <br />
                 <span className="text-primary italic underline decoration-primary/30">Dashboard</span> <br />
                 and Save Lives
               </h1>
-              
+
               <p className="text-lg text-muted-foreground font-medium mb-10 max-w-md">
                 Continue your journey of making a difference. Your dashboard awaits with fresh updates and donation opportunities.
               </p>
@@ -78,7 +78,7 @@ export default function Login() {
               </div>
 
               <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
-                
+
                 <div className="space-y-2">
                   <label className="text-sm font-bold ml-1 text-foreground">Email</label>
                   <div className="relative">
@@ -108,7 +108,7 @@ export default function Login() {
                     Sign In
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </span>
-                  <motion.div 
+                  <motion.div
                     className="absolute inset-0 bg-white/20"
                     initial={{ x: "-100%" }}
                     whileHover={{ x: "100%" }}
@@ -141,7 +141,7 @@ export default function Login() {
                     Facebook
                   </Button>
                 </div>
-                
+
                 <p className="text-xs text-center text-muted-foreground mt-6 font-medium">
                   By signing in, you agree to our <Link href="#" className="text-primary hover:underline">Terms of Service</Link> and <Link href="#" className="text-primary hover:underline">Privacy Policy</Link>.
                 </p>
@@ -152,7 +152,7 @@ export default function Login() {
 
         </div>
       </main>
-      
+
       <Footer />
     </div>
   );
